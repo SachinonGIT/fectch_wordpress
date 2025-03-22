@@ -138,7 +138,7 @@ const App = () => {
       </div>
 
       <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
-        Shree Venkatesh International Limited – Walk-In Drive for Multiple Roles on March 22nd & 23rd, 2025
+        Fetch Jobs and Generate a Combined Post | PharmaRecruiter.in
       </h1>
 
       <div className="max-w-5xl mx-auto mb-6 flex gap-4 flex-wrap justify-center">
@@ -154,12 +154,7 @@ const App = () => {
         >
           Combine Selected
         </button>
-        <button
-          onClick={() => loadPosts(false)}
-          className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition shadow-md"
-        >
-          Load More
-        </button>
+       
       </div>
 
       {combinedPosts && (
@@ -212,7 +207,7 @@ const App = () => {
       </div>
 
       <footer className="mt-8 text-center text-gray-500 text-sm">
-        Built with ❤️ by xAI | Updated as of March 22, 2025
+        Built with ❤️ by PharmaRecruiter.in Team | Updated as of March 22, 2025
       </footer>
     </div>
   );
